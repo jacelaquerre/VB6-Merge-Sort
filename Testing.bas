@@ -23,7 +23,7 @@ Public Sub Main()
     ReDim marrayA(UBound(arr)) As ArraySortElement
     For i& = 0 To UBound(arr)
         marrayA(i&).Index = i&
-        marrayA(i&).sort_str = RNum(arr(i&), 4, 0, 2)
+        marrayA(i&).sort_str = CStr(arr(i&))
         Next i&
     Call MergeSort(marrayA, 0, (UBound(arr)), 0, 2)
     
@@ -33,7 +33,7 @@ Public Sub Main()
     ReDim marrayD(UBound(arr)) As ArraySortElement
     For i& = 0 To UBound(arr)
         marrayD(i&).Index = i&
-        marrayD(i&).sort_str = RNum(arr(i&), 4, 0, 2)
+marrayD(i&).sort_str = CStr(arr(i&))
         Next i&
     Call MergeSort(marrayD, 0, (UBound(arr)), 1, 2)
 
