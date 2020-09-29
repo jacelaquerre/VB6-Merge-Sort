@@ -14,7 +14,7 @@ Public Sub mergeSort(ByRef ase() As ArraySortElement, array_start&, array_end&, 
     ' (less than about 1750 elements)
     ' Then a sorting algoritm with a better best case time complexity should be used
     '
-    ' array_start& = 0 or 1, depending on how TrashFlow is handling this array
+    ' array_start& = 0 or 1, depending on how we are is handling this array
     ' array_end& the last index of the arrray so call UBound(ase) in function call for this param
     '
     ' sort_dir& = 0, ascending sort
