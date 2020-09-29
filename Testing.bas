@@ -57,7 +57,7 @@ Public Function LongArrToString(arr() As Long, sep$, array_start&) As String
     ' arr is the incoming array of Longs
     ' sep is what sperates the elements of the array
     ' Examples could be ",", " ", or "-"
-    ' array_start& = 0 or 1, depending on how TrashFlow is handling this array
+' array_start& = 0 or 1, depending on how we are handling this array
     Dim i&
     Dim result$ ' stores the array as a string to be returned
     
@@ -76,7 +76,7 @@ Public Function StrArrToString(arr() As String, sep$, array_start&) As String
     ' arr is the incoming array of Strings
     ' sep is what sperates the elements of the array
     ' Examples could be ",", " ", or "-"
-    ' array_start& = 0 or 1, depending on how TrashFlow is handling this array
+    ' array_start& = 0 or 1, depending on how we are is handling this array
     Dim i&
     Dim result$ ' stores the array as a string to be returned
     
@@ -95,7 +95,7 @@ Public Function ElementArrToString(arr() As ArraySortElement, sep$, array_start&
     ' arr is the incoming array of ArraySortElement's
     ' sep is what sperates the elements of the array
     ' Examples could be ",", " ", or "-"
-    ' array_start& = 0 or 1, depending on how TrashFlow is handling this array
+    ' array_start& = 0 or 1, depending on how we are is handling this array
     Dim i&
     Dim result$ ' stores the array as a string to be returned
     
